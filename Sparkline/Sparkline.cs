@@ -6,9 +6,8 @@ using System.Linq;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 
-namespace Sparkline {
+namespace FergoSparkline {
 	[ToolboxItem(true)]
-	[ToolboxBitmap(typeof(System.Windows.Forms.DataVisualization.Charting.Chart))]
 	public partial class Sparkline : UserControl {
 		private float _minY = 0, _maxY = 100;
 		private bool _autoMax = true, _autoMin = true; 
@@ -40,7 +39,7 @@ namespace Sparkline {
 		public float LineWidth { get { return _lineStyle.Width; } set { _lineStyle.Width = value; this.Refresh(); } }
 
 		public Sparkline()  {
-            InitializeComponent();
+			InitializeComponent();
 
 			this._lineStyle = new Pen(Color.FromArgb(122, 204, 0), 2);
 			this.Refresh();

@@ -1,5 +1,4 @@
-﻿namespace Sparkline
-{
+﻿namespace FergoSparkline {
     public partial class Sparkline
     {
         /// <summary>

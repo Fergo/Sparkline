@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9496460C-3564-486C-9CD4-7D5DA92A8AEE}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sparkline</RootNamespace>
+    <RootNamespace>FergoSparkline</RootNamespace>
     <AssemblyName>Sparkline</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
