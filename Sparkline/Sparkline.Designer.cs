@@ -1,6 +1,6 @@
 ﻿namespace Sparkline
 {
-    partial class UserControl1
+    public partial class Sparkline
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+			this.components = new System.ComponentModel.Container();
+			this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// Sparkline
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Name = "Sparkline";
+			this.Size = new System.Drawing.Size(685, 386);
+			((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+			this.ResumeLayout(false);
+
         }
 
-        #endregion
-    }
+		#endregion
+
+		private System.Windows.Forms.BindingSource bindingSource1;
+	}
 }
